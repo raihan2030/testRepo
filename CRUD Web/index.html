@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>CRUD</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div id="container">
+      <table id="crudTable">
+         <thead>
+            <tr>
+               <th>ID</th>
+               <th>Nama</th>
+               <th>Umur</th>
+               <th>Status</th>
+            </tr>
+         </thead>
+         <tbody id="tableBody">
+            
+         </tbody>
+      </table><br>
+      <div id="inputCont">
+         <h2>Tambah Data</h2>
+         <table border="0">
+            <tr>
+               <td><label for="inpId">ID: </label></td>
+               <td><input id="inpId" type="text"></td>
+            </tr>
+            <tr>
+               <td><label for="inpNama">Nama: </label></td>
+               <td><input id="inpNama" type="text"></td>
+            </tr>
+            <tr>
+               <td><label for="inpUmur">Umur: </label></td>
+               <td><input id="inpUmur" type="text"></td>
+            </tr>
+            <tr>
+               <td><label for="inpStatus">Status: </label></td>
+               <td><input id="inpStatus" type="text"></td>
+            </tr>
+         </table>
+         <button id="addData">Tambah</button>
+         <button id="clearAdd">Bersihkan</button>
+         <br><br><br>
+
+         <h2>Edit data</h2>
+         <button id="editData">Edit</button>
+         <br><br><br>
+
+         <h2>Hapus data</h2>
+         <label for="inpIdDelete" id="deleteLabel">Masukkan ID: </label>
+         <input type="text" id="inpIdDelete">
+         <button id="deleteData">Hapus</button>
+         <br><br><br>
+
+         <button id="reset">Reset</button>
+      </div>
+   </div>
+
+   <script src="index.js"></script>
+</body>
+</html>

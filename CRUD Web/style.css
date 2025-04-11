@@ -1,0 +1,54 @@
+body {
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+   margin: 0px 0px 10px 0px;
+}
+
+#container {
+   display: flex;
+   gap: 20px;
+}
+
+#crudTable {
+   border-collapse: collapse;
+   table-layout: fixed;
+   height: 100%;
+   min-width: 40%;
+}
+
+#inpIdDelete, #inpId {
+   width: 50px;
+}
+
+#inputCont td {
+   padding: 5px 5px 5px 0px;
+   border: none;
+}
+
+#deleteLabel {
+   font-size: 15px;
+}
+
+th, td {
+   border: 1px solid black;
+   padding: 10px;
+}
+
+td {
+   font-size: 15px;
+}
+
+th {
+   background-color: aquamarine;
+}
+
+#crudTable tbody tr:hover {
+   background-color: lightgray;
+   cursor: pointer;
+}
+
+button:hover {
+   cursor: pointer;
+}
